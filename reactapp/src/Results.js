@@ -13,14 +13,14 @@ function Results() {
       <h1>Results</h1>
 
 
-      {data.filter(name => name.date == 1102020).map(filteredPerson => (
+      {data.filter(name => name.date == 1102020).map(prints => (
         <Prints
-        userName={filteredPerson.userName}
-          size={filteredPerson.size}
-          key={filteredPerson.name}
-          name={filteredPerson.name}
-          image={filteredPerson.image}
-          desc={filteredPerson.desc}
+        userName={prints.userName}
+          size={prints.size}
+          key={prints.name}
+          name={prints.name}
+          image={prints.image}
+          desc={prints.desc}
         />
       ))}
 
