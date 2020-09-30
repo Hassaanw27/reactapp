@@ -15,6 +15,8 @@ function Results() {
           size={prints.size}
           key={prints.name}
           name={prints.name}
+          image={prints.image}
+          desc={prints.desc}
         />
       ))}
 

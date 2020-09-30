@@ -15,6 +15,10 @@ function Header() {
     <p>Search</p>
     </div>
 
+
+    </div>
+    <div>
+    <h1>OBJECTWORLD</h1>
     </div>
 
     <div className = 'header__icons' >

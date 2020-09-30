@@ -1,21 +1,18 @@
 .results {
   padding: 24px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    color: white;
-    width: 80%;
-    margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: white;
+  width: 80%;
+  margin: auto;
 }
 
 .results h1 {
-  font-weight: lighter;
+  font-weight: bold;
   text-transform: uppercase;
-    text-align: center;
-    width: 100%;
-    margin-bottom: 48px;
-}
-
-.cardtop {
-  margin-top: 12px;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 48px;
+  color: black;
 }
