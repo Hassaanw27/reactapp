@@ -1,0 +1,23 @@
+.Prints > img{
+  width: 350px;
+}
+
+.Prints{
+  border: 2px solid white;
+  padding: 12px;
+  width: 350px;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-bottom: 48px;
+  border-radius: 2px;
+}
+
+.cardtop{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardtop > h3{
+  font-size: 8pt;
+}

@@ -1,0 +1,41 @@
+.videocard{
+  width: 500px;
+  height: auto;
+  margin: 24px;
+  color: white;
+  transition: 0.3s ease-in-out;
+  padding-bottom: 0px;
+  margin-bottom: 24px;
+}
+.videocard > .MuiSvgIcon-root{
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 48px;
+}
+
+.videocard:hover{
+  transform: scale(1.05);
+}
+
+.videocard > img{
+  height: 300px;
+  object-fit: contain;
+  width: 500px;
+}
+
+.videocard > div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardlayout{
+  display: flex;
+  color: lightgrey;
+}
+
+
+.desctext{
+  font-weight: lighter;
+  font-size: 12pt;
+}
