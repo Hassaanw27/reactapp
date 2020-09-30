@@ -12,6 +12,7 @@ export default function Prints({
     <div className="Prints">
       <img src="https://image.shutterstock.com/z/stock-vector-sample-stamp-grunge-texture-vector-illustration-1389188327.jpg"/>
       <div className="cardtop">
+      
       <h2>{name}</h2>
       <h3>{userName}<PersonOutlineIcon / ></h3>
       </div>

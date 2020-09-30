@@ -19,6 +19,6 @@
 
 .nav > h2:hover {
   text-decoration: underline;
-  cursor: pointer
-
+  cursor: pointer;
+  background-color: lightblue;
 }

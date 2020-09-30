@@ -27,37 +27,37 @@ export default [
   },
   {
     name: 'Whistle',
-    userName: 'AbraAlexander',
+    userName: 'LemonJames',
     size: 43,
   },
   {
     name: 'Sundial',
-    userName: 'MieLongplaceOlsen',
+    userName: 'OliOli',
     size: 12,
   },
   {
     name: 'BabyGroot',
-    userName: 'MieLongplaceOlsen',
+    userName: 'stopreading',
     size: 54,
   },
   {
     name: 'Planter',
-    userName: 'MieLongplaceOlsen',
+    userName: 'BigShaq',
     size: 13,
   },
   {
     name: 'Lamp',
-    userName: 'MieLongplaceOlsen',
+    userName: 'Möth',
     size: 10,
   },
   {
     name: 'HeadphoneStand',
-    userName: 'MieLongplaceOlsen',
+    userName: '0118 999 881 ...',
     size: 0.9,
   },
   {
     name: 'G-rex',
-    userName: 'MieLongplaceOlsen',
+    userName: 'JosefPrusa',
     size: 22,
   }
 ]

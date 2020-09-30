@@ -1,15 +1,21 @@
 .Prints > img{
-  width: 350px;
+  max-width: 100%;
 }
+
 
 .Prints{
   border: 2px solid white;
   padding: 12px;
-  width: 350px;
+  max-width: 350px;
   margin-left: 12px;
   margin-right: 12px;
   margin-bottom: 48px;
   border-radius: 2px;
+  transition: transform 0.2s ease-in-out
+}
+
+.Prints:hover{
+  transform: scale(1.2);
 }
 
 .cardtop{
