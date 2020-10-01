@@ -11,7 +11,6 @@ function App() {
     <div className="App">
     <Header />
     <Nav />
-
     <Results />
     {/*results*/}
     </div>

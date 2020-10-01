@@ -3,6 +3,8 @@ import "./Nav.css";
 
 
 
+
+
 function Nav() {
   return (
     <div className="nav">
@@ -10,6 +12,7 @@ function Nav() {
     <h2>New</h2>
     <h2>Top Saved</h2>
     <h2>Top Printed</h2>
+
 
 
     </div>
