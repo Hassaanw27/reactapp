@@ -13,15 +13,15 @@ export default function Prints({
   return (
     <div className="Prints">
       <img src={image}/>
-
+      <h4>{size}<small>MB</small></h4>
       <div className="cardtop">
-      <h2>{name}</h2>
-      <h3>Uploaded by: {userName}</h3>
+      <h2>{name} <h3>Uploaded by:<br></br> {userName}</h3></h2>
+
       </div>
 
       <div className="cardbottom">
       <p>{desc}</p>
-      <h4>{size}<small>MB</small></h4>
+
       </div>
 
       <div className="buttons">
