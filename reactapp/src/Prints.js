@@ -1,7 +1,7 @@
 import React from 'react';
 import './Prints.css'
 import PersonOutlineIcon from '@material-ui/icons/PersonOutline';
-import { Link } from 'react-router-dom';
+
 
 
 export default function Prints({
@@ -30,7 +30,7 @@ export default function Prints({
 
 
       <button type="button" name="button">share</button>
-      <button onClick={(e) => (window.location = {externalurl})}>Click me</button>
+      
       <a className="arlink" href={externalurl}>AR-view</a>
 
       </div>
