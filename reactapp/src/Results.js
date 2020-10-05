@@ -51,6 +51,7 @@ function Results() {
              name={print.name}
              image={print.image}
              desc={print.desc}
+             externalurl={print.externalurl}
 
            />
          ))}

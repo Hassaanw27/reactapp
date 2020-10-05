@@ -1,6 +1,7 @@
 import React from 'react';
 import './Prints.css'
 import PersonOutlineIcon from '@material-ui/icons/PersonOutline';
+import { Link } from 'react-router-dom';
 
 
 export default function Prints({
@@ -8,7 +9,8 @@ export default function Prints({
   userName,
   size,
   image,
-  desc
+  desc,
+  externalurl
 }) {
   return (
     <div className="Prints">
@@ -16,7 +18,6 @@ export default function Prints({
       <h4>{size}<small>MB</small></h4>
       <div className="cardtop">
       <h2>{name} <h3>Uploaded by:<br></br> {userName}</h3></h2>
-
       </div>
 
       <div className="cardbottom">
@@ -25,8 +26,13 @@ export default function Prints({
       </div>
 
       <div className="buttons">
+
+
+
       <button type="button" name="button">share</button>
-      <button type="button" name="button">explore</button>
+      <button onClick={(e) => (window.location = {externalurl})}>Click me</button>
+      <a className="arlink" href={externalurl}>AR-view</a>
+
       </div>
 
     </div>
